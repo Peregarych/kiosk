@@ -1,0 +1,65 @@
+.elem{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.elem img{
+    width: 100%;
+}
+.elem .label{
+    overflow: hidden;
+    height: 40%;
+    width: calc(100% - 30px);
+    background-color: rgba(64, 104, 156, 0.5);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    color: #ffffff;
+    padding: 10px;
+}
+.elem a .label p{
+    text-align: left;
+}
+.elem:hover .label{
+    opacity: 1;
+}
+.grayscale{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* анимация */
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.grayscale:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none;
+}
+#panarama{
+    padding-right: 0px !important;
+}
+#panarama .modal-dialog{
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+#panarama .modal-content{
+    height: 100%;
+}
+#panarama .modal-body{
+    height: 100%;
+    padding: 0px;
+}

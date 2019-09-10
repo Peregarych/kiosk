@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" name="Центральный вход корпуса №8">
+  <input leveltileurl="cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" height="4711" levelingroll="0" overlap="1" levelingpitch="0" width="4711">
+    <level predecode="0" height="4711" preload="0" width="4711"/>
+    <level predecode="0" height="2355" preload="0" width="2355"/>
+    <level predecode="0" height="1177" preload="0" width="1177"/>
+    <level predecode="0" height="588" preload="0" width="588"/>
+    <level predecode="1" height="294" preload="1" width="294"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="174.94">
+    <start pan="175.53" fov="48.5" tilt="0"/>
+    <min pan="-180" fov="5" tilt="-24.2318"/>
+    <max pan="180" fov="120" tilt="24.2318"/>
+  </view>
+  <userdata source="" author="" info="" datetime="2018:05:05 16:43:39" tags="2018 Корпус 8 вестибюль" comment="" longitude="" title="" description="" copyright="" latitude=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label textalpha="1" background="1" borderradius="1" height="20" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" border="1" wordwrap="1" enabled="1" width="180" borderalpha="1"/>
+    <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" borderalpha="1"/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" blendtime="1" zoomout="0" zoomin="0" softedge="0" zoomoutpause="1" enabled="0" zoomspeed="2" zoomfov="20" blendcolor="0x000000"/>
+  <control contextfullscreen="0" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" invertwheel="0" lockedkeyboard="0" hideabout="0" lockedwheel="0" sensitivity="8" simulatemass="1"/>
+</panorama>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" name="Лекционный зал №2">
+  <input height="4720" leveltilesize="510" levelbias="0.400" levelingroll="0" width="4720" levelbiashidpi="0.400" levelingpitch="0" leveltileurl="cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+    <level height="4720" preload="0" width="4720" predecode="0"/>
+    <level height="2360" preload="0" width="2360" predecode="0"/>
+    <level height="1180" preload="0" width="1180" predecode="0"/>
+    <level height="590" preload="0" width="590" predecode="0"/>
+    <level height="295" preload="1" width="295" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start tilt="0" pan="-179.42" fov="51.2"/>
+    <min tilt="-25.6127" pan="-180" fov="5"/>
+    <max tilt="25.6127" pan="180" fov="120"/>
+  </view>
+  <userdata copyright="" source="" longitude="" author="" title="" comment="" description="" datetime="2018:04:27 15:00:11" tags="2018 ЛЗ4" latitude="" info=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label height="20" borderalpha="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000"/>
+    <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition zoomoutpause="1" enabled="0" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+  <control dblclickfullscreen="0" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" lockedkeyboard="0" speedwheel="1" contextfullscreen="0" lockedwheel="0" lockedmouse="0" invertcontrol="1"/>
+</panorama>
